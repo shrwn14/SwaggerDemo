@@ -1,3 +1,3 @@
 # SwaggerDemo
 
-For Angular App and the Ionic, please run npm install.
+For Angular App and the Ionic App, please run npm install.
