@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+      <ion-input placeholder="Todo"  [(ngModel)]="description" (keyup.enter)="addTodo()"></ion-input>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container" style="top:30%">
+    <ion-list lines="inset">
+      <ion-item *ngFor="let todo of todos">
+        <ion-label>{{todo.description}}</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

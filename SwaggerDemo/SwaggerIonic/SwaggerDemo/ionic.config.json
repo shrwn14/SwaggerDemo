@@ -1,0 +1,7 @@
+{
+  "name": "SwaggerDemo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

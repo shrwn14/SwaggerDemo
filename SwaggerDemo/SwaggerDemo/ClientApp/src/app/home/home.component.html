@@ -1,0 +1,5 @@
+<h4>TODOs</h4>
+<input type="text" placeholder="Todo" required [(ngModel)]="description" (keyup.enter)="addTodo()" />
+<ul>
+  <li  *ngFor="let todo of todos">{{ todo.description }}</li>
+</ul>
